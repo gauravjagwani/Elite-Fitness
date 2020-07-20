@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('bg.jpg');
+    /* height: 100%; */
+    /* width: 100%; */
+    color: rgb(255, 255, 255);
+    height: 100%;
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left {
+    /* border: 2px solid rgb(34, 204, 139); */
+    display: inline-block;
+
+    position: absolute;
+    left: 34px;
+    top: 20px;
+
+
+}
+
+.left img {
+    width: 90px;
+    top: 15px;
+}
+
+.left div {
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    /* color: black; */
+    font-weight: 700;
+
+}
+
+.mid {
+    /* border: yellow 2px solid; */
+    display: block;
+    width: 36%;
+    margin: 29px auto;
+
+}
+
+.right {
+    /* border: blue 2px solid; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 30px;
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 35px 25px;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.btn {
+    padding: 10px 6px;
+    margin-top: 5px;
+    border-radius: 35px;
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid grey;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'Mulish', sans-serif;
+}
+
+.btn:hover {
+    text-decoration: none;
+    background-color: rgb(221, 220, 220);
+    color: rgba(0, 0, 0, 0.89);
+}
+
+.container {
+    border: 3px solid white;
+    margin: 108px auto;
+    padding: 41px 51px;
+    width: 35%;
+    border-radius: 15px;
+    border-color: white;
+    text-align: center;
+
+}
+
+.container h1 {
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 10px -3px 6px black;
+
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 220px;
+    padding: 18px 72px;
+    border: 2px solid black;
+    font-size: 19px;
+    border-radius: 14px;
+    background-color: #012329;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    margin: 12px auto;
+
+
+}
+
+.container button {
+    display: block;
+    width: 30%;
+    margin: 20px auto;
+}
